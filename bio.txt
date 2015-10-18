@@ -1,1 +1,2 @@
-I am a cool dude who likes to poop first thing every morning. It's really important that I poop before I leave the house in order to have a good day. 	
+Kenji Kurita PhD
+I am making a universal retention time system to be able to generalize all HPLC runs to a common retention time space
