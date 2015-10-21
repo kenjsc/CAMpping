@@ -1,0 +1,5 @@
+python cefimport.py --db ../CAMpping/mzdb/RLPA2_redo.db -rt 0.5 -f ../CAMpping/cef/RLPA2_redo/RLPA-* -b ../CAMpping/cef/syp/SYP* ../CAMpping/cef/RLPA2_redo/Blank3_* ../CAMpping/cef/RLPA2_redo/Blank4_* ../CAMpping/cef/RLPA2_redo/Blank5_*
+cp ../CAMpping/mzdb/RLPA2_redo.db ../CAMpping/mzdb/RLPA23_redo.db
+python cefimport.py --db ../CAMpping/mzdb/RLPA23_redo.db -rt 0.5 -f ../CAMpping/cef/RLPA3_redo/RLPA-* -b ../CAMpping/cef/syp/SYP* ../CAMpping/cef/RLPA3_redo/Blank3_* ../CAMpping/cef/RLPA3_redo/Blank4_* ../CAMpping/cef/RLPA3_redo/Blank5_*
+cp ../CAMpping/mzdb/RLPA23_redo.db ../CAMpping/mzdb/RLPA234_redo.db
+python cefimport.py --db ../CAMpping/mzdb/RLPA234_redo.db -rt 0.5 -f ../CAMpping/cef/RLPA4_redo/RLPA-* -b ../CAMpping/cef/syp/SYP* ../CAMpping/cef/RLPA4_redo/Blank3_* ../CAMpping/cef/RLPA4_redo/Blank4_* ../CAMpping/cef/RLPA4_redo/Blank5_*

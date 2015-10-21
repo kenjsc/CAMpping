@@ -1,0 +1,19 @@
+
+
+
+
+python ../../code/cefimport.py --db ../../mzdb/pl4_min1000_5isos_0_5rt.db -c 1000 -f
+	../../cef/Plate_13/RLUS-14* -b ../../cef/syp/SYP* ../../cef/Plate_13/Blank3*
+	../../cef/Plate_13/Blank4* ../../cef/Plate_13/Blank6_* -rt 0.5
+
+python ../../code/cefimport.py --db ../../mzdb/pl4_min1000_5isos_0_5rt.db -f
+	../../cef/Plate_14/RLUS-1* -b ../../cef/syp/SYP* ../../cef/Plate_14/BLANK5_*
+	../../cef/Plate_14/BLANK4_* ../../cef/Plate_14/BLANK3_* -c 1000 -rt 0.5
+
+python ../../code/cefimport.py -c 1000 --db ../../mzdb/pl4_min1000_5isos_0_5rt.db -f
+	../../cef/Plate_15/RLUS-15* -b ../../cef/syp/SYP* ../../cef/Plate_15/Blank5_*
+	../../cef/Plate_15/Blank4_* ../../cef/Plate_15/Blank3_* -rt 0.5
+
+python ../../code/cefimport.py -c 1000 -rt 0.5 --db ../../mzdb/pl4_min1000_5isos_0_5rt.db
+	-f ../../cef/Plate_16/RLUS-15* -b ../../cef/syp/SYP* ../../cef/Plate_16/Blank5_*
+	../../cef/Plate_16/Blank7_* ../../cef/Plate_16/Blank6_*
